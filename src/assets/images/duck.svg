@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Duck Body -->
+  <ellipse cx="100" cy="120" rx="50" ry="60" fill="#FFD700"/>
+
+  <!-- Duck Head -->
+  <circle cx="100" cy="70" r="35" fill="#FFD700"/>
+
+  <!-- Duck Beak -->
+  <ellipse cx="120" cy="70" rx="20" ry="12" fill="#FF8C00"/>
+  <path d="M 120 70 Q 135 70 140 75 Q 135 80 120 80 Z" fill="#FF6600"/>
+
+  <!-- Duck Eyes -->
+  <circle cx="95" cy="65" r="5" fill="#000"/>
+  <circle cx="96" cy="64" r="2" fill="#fff"/>
+
+  <!-- Duck Wing -->
+  <ellipse cx="80" cy="120" rx="25" ry="35" fill="#FFA500" transform="rotate(-20 80 120)"/>
+
+  <!-- Duck Feet -->
+  <g transform="translate(85, 170)">
+    <path d="M 0 0 L -5 10 M 0 0 L 0 10 M 0 0 L 5 10" stroke="#FF8C00" stroke-width="3" fill="none"/>
+  </g>
+  <g transform="translate(115, 170)">
+    <path d="M 0 0 L -5 10 M 0 0 L 0 10 M 0 0 L 5 10" stroke="#FF8C00" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Duck Tail -->
+  <path d="M 60 140 Q 45 135 40 145 Q 50 150 60 145 Z" fill="#FFA500"/>
+</svg>
